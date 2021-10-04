@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "esnext",
+    "importsNotUsedAsValues": "remove",
+    "allowSyntheticDefaultImports": true,
+    "types": ["vite/client"],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  },
+  "include": [
+    "apps/**/src/**/*.ts",
+    "utils/*.ts"
+  ],
+  "exclude": ["node_modules/*", "public/*", "apps/api/*"],
+}
